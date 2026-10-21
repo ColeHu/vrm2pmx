@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "template_id": "standard-apose-v1",
+  "representation": "semantic_directions",
+  "character_axes": "X character left, Y up cross X, Z torso up",
+  "units": "unit directions; retain target proportions and joint locations",
+  "scope": "upper arms, lower arms and hands; torso/legs remain unchanged",
+  "segments": [
+    {
+      "semantic": "leftUpperArm",
+      "endpoint": "leftLowerArm",
+      "direction": [
+        0.7485979199409485,
+        0.011671191081404686,
+        -0.6629215478897095
+      ]
+    },
+    {
+      "semantic": "leftLowerArm",
+      "endpoint": "leftHand",
+      "direction": [
+        0.742121160030365,
+        0.04664299637079239,
+        -0.6686407923698425
+      ]
+    },
+    {
+      "semantic": "leftHand",
+      "endpoint": "leftMiddleProximal",
+      "direction": [
+        0.7425779700279236,
+        -0.08865373581647873,
+        -0.663866400718689
+      ],
+      "palm_normal": [
+        0.668974670239004,
+        0.14615354690660398,
+        0.7287743349660681
+      ]
+    },
+    {
+      "semantic": "rightUpperArm",
+      "endpoint": "rightLowerArm",
+      "direction": [
+        -0.748598039150238,
+        0.011672169901430607,
+        -0.6629214882850647
+      ]
+    },
+    {
+      "semantic": "rightLowerArm",
+      "endpoint": "rightHand",
+      "direction": [
+        -0.7421215176582336,
+        0.04664288088679314,
+        -0.6686406135559082
+      ]
+    },
+    {
+      "semantic": "rightHand",
+      "endpoint": "rightMiddleProximal",
+      "direction": [
+        -0.7425798773765564,
+        -0.08865205943584442,
+        -0.6638644933700562
+      ],
+      "palm_normal": [
+        0.6689724993273274,
+        -0.14615408646827457,
+        -0.7287762195299549
+      ]
+    }
+  ],
+  "origin": "Recorded normalized A-pose Rest geometry; transferable directions, not a universal MMD standard",
+  "validation": "Reference geometry recorded; template application requires independent target validation",
+  "palm_normal_convention": "Knuckle-plane normal projected perpendicular to hand direction"
+}

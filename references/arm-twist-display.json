@@ -1,0 +1,10 @@
+{
+  "profile_id": "vertical-twist-display-v1",
+  "helper_direction_character": [
+    0,
+    0,
+    1
+  ],
+  "helper_length_to_mean_upper_arm": 0.36338653357910794,
+  "main_tail": "distal_bone_head"
+}

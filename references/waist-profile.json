@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "profile_id": "reference-waist-v1",
+  "anchor": "upper-body head",
+  "scale": "distance between left and right upper-leg heads",
+  "axes": "X character left, Y torso-up cross X (back), Z local up",
+  "waist_head": [0.0, 0.24974535405635834, -0.0602937713265419],
+  "waist_tail": [0.0, -0.16109134256839752, 0.30631572008132935],
+  "cancel_length": 0.49697190489827536,
+  "cancel_rotation_influence": -1.0,
+  "parenting": {
+    "腰": "グルーブ",
+    "上半身": "腰",
+    "下半身": "腰",
+    "腰キャンセル左": "下半身",
+    "腰キャンセル右": "下半身",
+    "左足": "腰キャンセル左",
+    "右足": "腰キャンセル右"
+  },
+  "skin": "control bones have no nonzero skin weights; preserve existing body weights"
+}

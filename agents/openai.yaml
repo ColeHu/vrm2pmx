@@ -1,0 +1,4 @@
+interface:
+  display_name: "vrm2pmx"
+  short_description: "在 Blender 内整理 VRM 骨架与基础材质，验证后交给人工修改和导出"
+  default_prompt: "使用 $vrm2pmx 将选定 VRM 模型的骨架与基础材质整理为 Blender 内可编辑的 PMX 制作数据，人体内部名称采用 .L/.R，足先EX恢复脚趾关节头部支点，尾部水平向前略超过同侧脚尖控制点，默认将原始贴图文件的绝对路径绑定到 MMD 主纹理槽，扩散色设为白、反射色为黑、环境色为 0.5，关闭轮廓等效果，验证后交接，不导出 PMX，不保存整体准备、骨架、姿态检测三个独立 JSON 报告。"
